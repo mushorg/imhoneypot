@@ -1,0 +1,31 @@
+<settings>
+    <!-- IM Honeyot Settings File -->
+    <title>IM Honeypot Settings</title>
+
+    <section name="Server">
+    </section>
+
+    <section name="Protocols">
+        <prpl-icq>False</prpl-icq>
+        <prpl-msn>False</prpl-msn>
+        <prpl-jabber>False</prpl-jabber>
+        <prpl-qq>False</prpl-qq>
+    </section>
+
+    <section name="Logging">
+        <sqlite>False</sqlite>
+        <icq id="">False</icq>
+    </section>
+
+    <section name="Analysis">
+        <url>False</url>
+        <download_file>False</download_file>
+        <executable>False</executable>
+    </section>
+
+    <section name="Submission">
+        <monkeywrench>False</monkeywrench>
+        <anubis email="user@example.com">False</anubis>
+    </section>
+
+</settings>

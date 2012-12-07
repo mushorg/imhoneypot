@@ -1,0 +1,44 @@
+<accounts>
+    <title>IM Honeypot Account List</title>
+
+    <account><name>Google Talk</name>
+        <protocol>prpl-jabber</protocol>
+        <user_name>@gmail.com</user_name>
+        <password></password>
+        <connect_server>talk.google.com</connect_server>
+        <server_port>5223</server_port>
+        <ssl>False</ssl>
+        <old_ssl>True</old_ssl>
+    </account>
+
+    <account><name>MSN</name>
+        <protocol>prpl-msn</protocol>
+        <user_name>@hotmail.com</user_name>
+        <password></password>
+        <connect_server>loginnet.passport.com</connect_server>
+        <server_port>1863</server_port>
+        <ssl>True</ssl>
+        <old_ssl>False</old_ssl>
+    </account>
+
+    <account><name>ICQ</name>
+        <protocol>prpl-icq</protocol>
+        <user_name></user_name>
+        <password></password>
+        <connect_server>login.icq.com</connect_server>
+        <server_port>5190</server_port>
+        <ssl>False</ssl>
+        <old_ssl>False</old_ssl>
+    </account>
+
+    <account><name>QQ</name>
+        <protocol>prpl-qq</protocol>
+        <user_name></user_name>
+        <password></password>
+        <connect_server>58.251.60.89</connect_server>
+        <server_port>8000</server_port>
+        <ssl>True</ssl>
+        <old_ssl>False</old_ssl>
+    </account>
+
+</accounts>
