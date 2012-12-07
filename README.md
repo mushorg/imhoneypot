@@ -1,0 +1,4 @@
+imhoneypot
+==========
+
+Instant messenger honeypot
