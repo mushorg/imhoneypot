@@ -39,7 +39,7 @@ class IMHoneypot():
         self.logger.log_file("Starting IMHoneypot...", "debug")
         self.logger.log_console("Starting IMHoneypot...", "debug")
         # Initialize databases
-        self.sqlite_db = modules.sqlite.SQLiteDB()
+        self.sqlite_db = modules.sqlite.SQLiteDB(self.logger)
         self.sqlite_db.create()
         # Get server settings
         self.settings_parser = modules.settings.SettingsParser(self.logger)
